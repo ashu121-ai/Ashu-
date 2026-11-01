@@ -895,7 +895,7 @@ $('#aiForm').onsubmit=function(e){e.preventDefault();unlockAudio();unlockSpeech(
 
 /* ---------- AI settings ---------- */
 function renderAiSet(){
-  var c=aiCfg();$('#cfgProv').value=c.provider;$('#cfgKey').value=c.key;$('#cfgModel').value=c.model;
+  var c=aiCfg(AQ.Ab8RN6LSS2ggpkQ4H4zmfmWKBnISlFFnisAflUOdM6oIygsw1w);$('#cfgProv').value=c.provider;$('#cfgKey').value=c.key;$('#cfgModel').value=c.model;
   $('#cfgModel').placeholder='jaise '+PROV[c.provider].model;
   $('#cfgMsg').textContent=c.key?'Key is phone par save hai.':'Abhi koi key nahi daali.';
 }
